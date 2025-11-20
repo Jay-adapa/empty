@@ -243,3 +243,5 @@ http://<public-ip>:6060
 
 If it does not open, update Inbound Rules of the Security Group:
 Add Custom TCP → Port 6060 → 0.0.0.0/0.
+From nginx: alpine 
+COPY . /usr/ share/nginx/html 
